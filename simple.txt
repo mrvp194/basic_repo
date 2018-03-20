@@ -1,0 +1,15 @@
+md basic_repo
+cd basic_repo
+git init
+New-Item index.html -Type file
+New-Item style.css -Type file
+git status
+git add .
+git commit -m 'added files'
+git remote add origin https://github.com/mrvp194/basic_repo.git
+git push -u origin master
+git status
+git add .
+git commit -m 'changes to index'
+git push -u origin master
+
